@@ -1,8 +1,12 @@
 ---
-title: "Fitting extreme value distributions"
+title: "Fitting extremes"
 author: "Beni Stocker"
-date: "2024-04-19"
-output: html_document
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Fitting extremes}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
 ---
 
 ```{r setup, include=FALSE}
@@ -10,13 +14,13 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r}
-library(tidyverse)
-# library(tidyr)
-# library(purrr)
-# library(tibble)
+library(dplyr)
+library(tidyr)
+library(purrr)
+library(tibble)
 library(extRemes)
 library(here)
-# library(ggplot2)
+library(ggplot2)
 library(patchwork)
 ```
 
