@@ -10,15 +10,14 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r}
-library(dplyr)
-library(tidyr)
-library(purrr)
-library(tibble)
+library(tidyverse)
+# library(tidyr)
+# library(purrr)
+# library(tibble)
 library(extRemes)
 library(here)
-library(ggplot2)
+# library(ggplot2)
 library(patchwork)
-library(purrr)
 ```
 
 ## The data
