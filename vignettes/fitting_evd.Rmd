@@ -18,6 +18,7 @@ library(extRemes)
 library(here)
 library(ggplot2)
 library(patchwork)
+library(purrr)
 ```
 
 ## The data
